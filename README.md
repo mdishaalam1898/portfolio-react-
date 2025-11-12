@@ -1,10 +1,10 @@
 # React + Vite
 
-🌐## Personal Portfolio Website
+##🌐 Personal Portfolio Website
 
 A modern and responsive portfolio website built using React, CSS, and Vite to showcase my skills, projects, and experience as a web developer.
 
-🚀## Features
+##🚀 Features
 
 - Responsive Design: Optimized for all devices (desktop, tablet, mobile).
 
@@ -16,7 +16,7 @@ A modern and responsive portfolio website built using React, CSS, and Vite to sh
 
 - Smooth Animations: Clean UI transitions for a modern user experience.
 
-🛠️## Tech Stack
+##🛠️ Tech Stack
 
 Frontend: React, JavaScript, HTML5, CSS3
 
@@ -24,4 +24,4 @@ Build Tool: Vite
 
 Deployment: Netlify
 
-🔗## Live Demo 👉 View Portfolio
+##🔗 Live Demo 👉 View Portfolio
