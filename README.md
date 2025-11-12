@@ -1,16 +1,27 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐## Personal Portfolio Website
 
-Currently, two official plugins are available:
+A modern and responsive portfolio website built using React, CSS, and Vite to showcase my skills, projects, and experience as a web developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀## Features
 
-## React Compiler
+- Responsive Design: Optimized for all devices (desktop, tablet, mobile).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Projects Section: Showcases live demos and GitHub links of my work.
 
-## Expanding the ESLint configuration
+- About Me: Highlights my background, skills, and interests.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Resume Integration: Option to view or download my latest resume directly.
+
+- Smooth Animations: Clean UI transitions for a modern user experience.
+
+🛠️## Tech Stack
+
+Frontend: React, JavaScript, HTML5, CSS3
+
+Build Tool: Vite
+
+Deployment: Netlify
+
+🔗## Live Demo 👉 View Portfolio
