@@ -24,4 +24,4 @@ Build Tool: Vite
 
 Deployment: Netlify
 
-🔗 Live Demo 👉 View Portfolio (https://my-expense-tracker-2025.netlify.app/)
+🔗 Live Demo 👉 View Portfolio (https://portfolio-025.netlify.app/)
