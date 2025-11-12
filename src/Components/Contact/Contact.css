@@ -1,0 +1,99 @@
+.contact {
+    padding: 80px 10%;
+    background: #0f0f0f;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    background: linear-gradient(270deg, #df8908, #b415ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  /* Left Side */
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-left h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-left p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ddd;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    color: #b415ff;
+  }
+  
+  /* Right Side (Form) */
+  .contact-right {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .contact-right input:focus,
+  .contact-right textarea:focus {
+    border: 1px solid #b415ff;
+  }
+  
+  .contact-right button {
+    background: linear-gradient(270deg, #df8908, #b415ff);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-right button:hover {
+    transform: scale(1.05);
+  }
+  

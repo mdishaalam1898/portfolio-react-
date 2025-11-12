@@ -1,0 +1,125 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.hero-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.hero h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
+  max-width: 700px;
+  margin: 20px auto 0;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hero-connect {
+    margin-top: 30px;
+    padding: 14px 32px;
+    background: linear-gradient(90deg, #DF8908, #B415FF);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(180, 21, 255, 0.3);
+  }
+  
+  .hero-connect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(180, 21, 255, 0.4);
+    background: linear-gradient(90deg, #B415FF, #DF8908);
+  }
+  
+  .hero-resume {
+    margin-top: 30px;
+    padding: 14px 32px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(180, 21, 255, 0.3);
+    border: 2px solid;
+  }
+  
+  .hero-resume:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(180, 21, 255, 0.4);
+    
+  }
+  
+  .hero-action {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .resume-btn {
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  .resume-btn:hover {
+    background: #0056d2;
+    transform: translateY(-2px);
+  }
+  
+  .resume-btn.secondary {
+    background: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .resume-btn.secondary:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  
